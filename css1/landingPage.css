@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 10, 2025, 4:18:06 PM
+    Author     : plazma
+*/
+
+body {
+              font-family: 'Hind';
+            }
+            h1, h2, h3, h4, h5, h6 {
+              font-family: 'Montserrat';
+            }
+
+            :root {
+              --background: #1A1A1A;
+              --foreground: #E0E0E0;
+              --card-background: #212121;
+              --card-foreground: #E0E0E0;
+              --primary-background: #616161;
+              --primary-foreground: #FFFFFF;
+              --secondary-background: #424242;
+              --secondary-foreground: #FFFFFF;
+              --muted-background: #2E2E2E;
+              --muted-foreground: #A0A0A0;
+              --accent-background: #8C8C8C;
+              --accent-foreground: #E0E0E0;
+              --destructive: #EF4444;
+              --border: #424242;
+              --input: #424242;
+              --ring: #616161;
+            }
+            
+            
+/* Products Section */
+.products-section {
+    padding: 60px 10%;
+    background: #1A1A1A;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    color: #E0E0E0;
+}
+
+/* Grid layout */
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding: 50px;
+    gap: 25px;
+}
+
+/* Product Card */
+.product-card {
+    background: #424242;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    color: #E0E0E0;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #E0E0E0;
+    font-weight: bold;
+}
+
+.product-card p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Button */
+.product-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #212121;      /* Your theme blue */
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-btn:hover {
+    background: #2E2E2E;      /* Darker hover blue */
+}
